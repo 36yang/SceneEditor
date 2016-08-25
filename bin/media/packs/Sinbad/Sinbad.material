@@ -1,0 +1,281 @@
+
+material Sinbad/Eyes
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0.698039 1
+			diffuse 1 0 0.0117647 1
+			specular 0.980392 0.941176 0.941176 1 16
+
+			texture_unit
+			{
+				texture sinbad_body.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_body.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}
+
+material Sinbad/Body
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+
+			texture_unit
+			{
+				texture sinbad_body.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_body.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}
+
+material Sinbad/Gold
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0.3 0.3 0.2 1 5.5
+
+			texture_unit
+			{
+				texture sinbad_clothes.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_clothes.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}
+
+material Sinbad/Teeth
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			specular 0.25 0.25 0.25 1 10.5
+
+			texture_unit
+			{
+				texture sinbad_body.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_body.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}
+
+material Sinbad/Sheaths
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			specular 0.2 0.1 0.1 1 50
+
+			texture_unit
+			{
+				texture sinbad_sword.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_sword.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}
+
+material Sinbad/Spikes
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			specular 0.75 0.75 0.75 1 20.5
+
+			texture_unit
+			{
+				texture sinbad_clothes.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_clothes.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}
+
+material Sinbad/Clothes
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			specular 0.05 0.05 0.05 1 12.5
+
+			texture_unit
+			{
+				texture sinbad_clothes.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme GBuffer
+		pass DeferredShading/GBuffer/Pass_273
+		{
+			lighting off
+
+			texture_unit
+			{
+				texture sinbad_clothes.tga
+			}
+		}
+
+	}
+
+	technique
+	{
+		scheme NoGBuffer
+	}
+
+}

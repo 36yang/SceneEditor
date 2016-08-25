@@ -1,0 +1,82 @@
+//天空面
+material PlaneSky/SpaceSkyPlane
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture spacesky.jpg
+			}
+		}
+	}
+}
+
+
+material PlaneSky/Cloudy
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture clouds1.jpg
+				scroll_anim 0.15 0
+			}
+		}
+	}
+}
+
+material PlaneSky/壁纸2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture 壁纸2.jpg
+			}
+		}
+	}
+}
+
+material PlaneSky/蓝天
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture 蓝天.jpg
+			}
+		}
+	}
+}
+
+material PlaneSky/美女壁纸
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture 美女壁纸.jpg
+			}
+		}
+	}
+}

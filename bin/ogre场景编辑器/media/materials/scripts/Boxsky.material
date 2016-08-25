@@ -1,0 +1,429 @@
+//Ìì¿ÕºÐ
+material BoxSky/cubemap
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture cubemap_fr.jpg cubemap_bk.jpg cubemap_lf.jpg cubemap_rt.jpg cubemap_up.jpg cubemap_dn.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material BoxSky/cubescene
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture cubescene_fr.jpg cubescene_bk.jpg cubescene_lf.jpg cubescene_rt.jpg cubescene_up.jpg cubescene_dn.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/alpine
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture alpine_front.jpg alpine_back.jpg alpine_left.jpg alpine_right.jpg alpine_top.jpg alpine_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/ashcanyon
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture ashcanyon_front.jpg ashcanyon_back.jpg ashcanyon_left.jpg ashcanyon_right.jpg ashcanyon_top.jpg ashcanyon_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/bleached
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture bleached_front.jpg bleached_back.jpg bleached_left.jpg bleached_right.jpg bleached_top.jpg bleached_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/bluesky
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture bluesky_front.jpg bluesky_back.jpg bluesky_left.jpg bluesky_right.jpg bluesky_top.jpg bluesky_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/calm
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture calm_front.jpg calm_back.jpg calm_left.jpg calm_right.jpg calm_top.jpg calm_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material BoxSky/desert
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture desert_front.jpg desert_back.jpg desert_left.jpg desert_right.jpg desert_top.jpg desert_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/desert3
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture desert3_front.jpg desert3_back.jpg desert3_left.jpg desert3_right.jpg desert3_top.jpg desert3_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/desertevening
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture desertevening_front.jpg desertevening_back.jpg desertevening_left.jpg desertevening_right.jpg desertevening_top.jpg desertevening_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/desertsky
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture desertsky_front.jpg desertsky_back.jpg desertsky_left.jpg desertsky_right.jpg desertsky_top.jpg desertsky_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/fadeaway
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture fadeaway_front.jpg fadeaway_back.jpg fadeaway_left.jpg fadeaway_right.jpg fadeaway_top.jpg fadeaway_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/grandcanyon
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture grandcanyon_front.jpg grandcanyon_back.jpg grandcanyon_left.jpg grandcanyon_right.jpg grandcanyon_top.jpg grandcanyon_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material BoxSky/iceflats
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture iceflats_front.jpg iceflats_back.jpg iceflats_left.jpg iceflats_right.jpg iceflats_top.jpg iceflats_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material BoxSky/lostatseaday
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture lostatseaday_front.jpg lostatseaday_back.jpg lostatseaday_left.jpg lostatseaday_right.jpg lostatseaday_top.jpg lostatseaday_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/lostatseanight
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture lostatseanight_front.jpg lostatseanight_back.jpg lostatseanight_left.jpg lostatseanight_right.jpg lostatseanight_top.jpg lostatseanight_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/lostvalley
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture lostvalley_front.jpg lostvalley_back.jpg lostvalley_left.jpg lostvalley_right.jpg lostvalley_top.jpg lostvalley_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/oasisday
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture oasisday_front.jpg oasisday_back.jpg oasisday_left.jpg oasisday_right.jpg oasisday_top.jpg oasisday_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/oasisnight
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture oasisnight_front.jpg oasisnight_back.jpg oasisnight_left.jpg oasisnight_right.jpg oasisnight_top.jpg oasisnight_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/orangecream
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture orangecream_front.jpg orangecream_back.jpg orangecream_left.jpg orangecream_right.jpg orangecream_top.jpg orangecream_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material BoxSky/redsunset_TGA
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture redsunset_ft.tga redsunset_bk.tga redsunset_lf.tga redsunset_rt.tga redsunset_up.tga redsunset_dn.tga separateUV
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+material BoxSky/rockyvalley
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture rockyvalley_front.jpg rockyvalley_back.jpg rockyvalley_left.jpg rockyvalley_right.jpg rockyvalley_top.jpg rockyvalley_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/siege
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture siege_front.jpg siege_back.jpg siege_left.jpg siege_right.jpg siege_top.jpg siege_top.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material BoxSky/starLight
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture stevecube_FR.jpg stevecube_BK.jpg stevecube_LF.jpg stevecube_RT.jpg stevecube_UP.jpg stevecube_DN.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}

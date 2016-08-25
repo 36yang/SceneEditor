@@ -1,0 +1,22 @@
+21:03:57: Creating resource group General
+21:03:57: Creating resource group Internal
+21:03:57: Creating resource group Autodetect
+21:03:57: Registering ResourceManager for type Mesh
+21:03:57: Registering ResourceManager for type Material
+21:03:57: Registering ResourceManager for type Skeleton
+21:03:57: Skeleton: Loading girl.skeleton
+21:03:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource girl.skeleton in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 756)
+21:03:57: Unable to load skeleton girl.skeleton for Mesh conversion. This Mesh will not be animated. You can ignore this message if you are using an offline tool.
+21:03:57: XMLMeshSerializer writing mesh data to D:\ogre\OgreSDK_vc10_v1-8-1\work\Thebeging\SceneEditor\bin\media\packs\girl\girl.mesh.xml...
+21:03:57: Populating DOM...
+21:03:57: Writing submesh...
+21:03:58: Exporting dedicated geometry bone assignments...
+21:03:58: Dedicated geometry bone assignments exported.
+21:03:58: Submesh exported.
+21:03:58: Exporting skeleton link...
+21:03:58: Skeleton link exported.
+21:03:58: DOM populated, writing XML file..
+21:03:58: XMLMeshSerializer export successful.
+21:03:59: Unregistering ResourceManager for type Skeleton
+21:03:59: Unregistering ResourceManager for type Material
+21:03:59: Unregistering ResourceManager for type Mesh

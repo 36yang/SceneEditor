@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09FF2484-7C95-4E81-BCDE-482A045C23F9}</ProjectGuid>
+    <RootNamespace>SceneEditor</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;$(OGRE_HOME)\include;$(OGRE_HOME)\include\OIS;$(OGRE_HOME)\include\OGRE\Overlay;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\Samples\Common\include;$(OGRE_HOME)\boost;$(OGRE_HOME)\ogreopcode\include;$(OGRE_HOME)\include\OGRE\Paging;.\src\Terrain\include;.\src\jsoncpp-src-0.5.0\json;.\src\FreeImage\Source;.\src\ode-0.13\include;.\src\FMOD\inc;.\src\ParticleUniverse\include;.\src\sqlite;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\lib\debug;$(OGRE_HOME)\boost\lib;.\src\FreeImage\Release;.\src\ode-0.13\lib\DebugSingleLib;.\src\FMOD\lib;.\src\ParticleUniverse\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;FreeImage.lib;ode_singled.lib;fmod_vc.lib;ParticleUniverse_d.lib;OgrePaging_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <StackReserveSize>32768</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;$(OGRE_HOME)\include;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\Samples\Common\include;$(OGRE_HOME)\boost;$(OGRE_HOME)\ogreopcode\include;$(OGRE_HOME)\include\OGRE\Paging;.\src\Terrain\include;.\src\jsoncpp-src-0.5.0\json;.\src\FreeImage\Source;.\src\ode-0.13\include;.\src\FMOD\inc;.\src\ParticleUniverse\include\ParticleUniverse;.\src\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\lib\release;$(OGRE_HOME)\boost\lib;$(OGRE_HOME)\ogreopcode\bin\Release;.\src\FreeImage\Release;.\src\ode-0.13\lib\ReleaseSingleLib;.\src\FMOD\lib;.\src\ParticleUniverse\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreOpcode.lib;FreeImage.lib;ode_single.lib;fmod_vc.lib;ParticleUniverse.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\SceneEditor.ico" />
+    <None Include="res\SceneEditor.rc2" />
+    <None Include="res\SceneEditorDoc.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseApplication.h" />
+    <ClInclude Include="LightObj.h" />
+    <ClInclude Include="ParticleObj.h" />
+    <ClInclude Include="SceneLoader.h" />
+    <ClInclude Include="SceneObjView.h" />
+    <ClInclude Include="PhysicsBox.h" />
+    <ClInclude Include="EditScene.h" />
+    <ClInclude Include="EditTerrainWnd.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MeshObj.h" />
+    <ClInclude Include="ObjPropertiesWnd.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SceneEditor.h" />
+    <ClInclude Include="SceneEditorDoc.h" />
+    <ClInclude Include="SceneEditorView.h" />
+    <ClInclude Include="SceneObj.h" />
+    <ClInclude Include="SceneSetPropertiesWnd.h" />
+    <ClInclude Include="SelectTextureDlg.h" />
+    <ClInclude Include="SoundObj.h" />
+    <ClInclude Include="src\sqlite\sqlite3.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrain.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainAutoUpdateLod.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainGroup.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainLayerBlendMap.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainLodManager.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainMaterialGenerator.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainMaterialGeneratorA.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainPagedWorldSection.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainPaging.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainPrerequisites.h" />
+    <ClInclude Include="src\Terrain\include\OgreTerrainQuadTreeNode.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Editpointor.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseApplication.cpp" />
+    <ClCompile Include="LightObj.cpp" />
+    <ClCompile Include="ParticleObj.cpp" />
+    <ClCompile Include="SceneLoader.cpp" />
+    <ClCompile Include="SceneObjView.cpp" />
+    <ClCompile Include="Editpointor.cpp" />
+    <ClCompile Include="EditScene.cpp" />
+    <ClCompile Include="EditTerrainWnd.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MeshObj.cpp" />
+    <ClCompile Include="ObjPropertiesWnd.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PhysicsBox.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="SceneEditor.cpp" />
+    <ClCompile Include="SceneEditorDoc.cpp" />
+    <ClCompile Include="SceneEditorView.cpp" />
+    <ClCompile Include="SceneSetPropertiesWnd.cpp" />
+    <ClCompile Include="SelectTextureDlg.cpp" />
+    <ClCompile Include="SoundObj.cpp" />
+    <ClCompile Include="src\sqlite\sqlite3.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrain.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainAutoUpdateLod.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainGroup.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainLayerBlendMap.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainLodManager.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialGenerator.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialGeneratorA.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperCg.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperGLSL.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperGLSLES.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperHLSL.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainPagedWorldSection.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainPaging.cpp" />
+    <ClCompile Include="src\Terrain\src\OgreTerrainQuadTreeNode.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SceneEditor.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SceneEditor.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

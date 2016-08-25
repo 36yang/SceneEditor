@@ -1,0 +1,172 @@
+material SEBox/lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 1
+			polygon_mode wireframe
+		}
+	}
+}
+
+material SEsphere/lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 1
+			polygon_mode wireframe
+		}
+	}
+}
+
+material SEGrid/lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1
+			emissive 0 0 0
+			polygon_mode wireframe
+		}
+	}
+}
+
+
+material cylinder/lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 1
+			polygon_mode wireframe
+		}
+	}
+}
+
+material capsule/lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 1
+			polygon_mode wireframe
+		}
+	}
+}
+
+material SEPlane/lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 1
+			polygon_mode wireframe
+		}
+	}
+}
+
+material ball
+{
+	technique
+	{
+		pass
+		{
+			shading phong
+			ambient 0.854902 0.854902 0.854902 1
+			diffuse 0.854902 0.854902 0.854902 1
+			specular 0.0854902 0.0854902 0.0854902 57.9262
+			emissive 0 0 0
+		}
+	}
+}
+material ball2
+{
+	technique
+	{
+		pass
+		{
+			shading phong
+			ambient 0.0784314 0.0784314 0.0784314 1
+			diffuse 0.0784314 0.0784314 0.0784314 1
+			specular 0.358824 0.358824 0.358824 3.62039
+			emissive 0 0 0
+		}
+	}
+}
+
+material LightmeshFrame
+{
+	technique
+	{
+		pass
+		{
+		//不做裁剪可以显示模型背面
+			cull_hardware none
+			cull_software none
+			ambient 0 0 1 0
+			diffuse 0 0 1 0
+			specular 0 0 1 0
+			emissive 0 1 0
+			polygon_mode wireframe
+		}
+	}
+}
+material LightmeshAlph
+{
+	technique
+    {
+        pass
+        {
+			depth_check off
+			depth_write off
+			scene_blend add
+			ambient 0.5 0.5 0.5
+			diffuse 0.5 0.5 0.5
+			specular 0.0 0.0 0.0 1.0
+			emissive 0.5 0.5 0.5
+        }
+    }
+}
+
+material ParticlePointor
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			depth_write off
+			cull_hardware none
+			cull_software none
+			scene_blend add
+			ambient 0.5 0.5 0.5
+			diffuse 0.5 0.5 0.5
+			specular 0.0 0.0 0.0 1.0
+			emissive 0.5 0.5 0.5
+		}
+	}
+}

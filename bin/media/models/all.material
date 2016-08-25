@@ -1,0 +1,1304 @@
+material ÌÒ»¨¸É
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_ÌÒ»¨.dds
+			}
+		}
+
+	}
+
+}
+material ÌÒ»¨»¨
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_ÌÒ»¨.dds
+			}
+		}
+
+	}
+
+}
+material ¾ÞËÉÌÙ
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/jpg_ÌÙÌõ.dds
+			}
+		}
+
+	}
+
+}
+material ¿ÝÊ÷1¸É
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/jpg_¿Ý.dds
+			}
+		}
+
+	}
+
+}
+material ¿ÝÊ÷1Ö¦
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_¿ÝÖ¦2.dds
+			}
+		}
+
+	}
+}
+material ËÉÊ÷Ö¦
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_¿ÝÖ¦.dds
+			}
+		}
+
+	}
+
+}
+material Ð¡ºì·ãÊ÷Ò¶
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_Ð¡ºìÒ¶.dds
+			}
+		}
+
+	}
+
+}
+material 4_-_Default
+{
+	technique 
+	{
+		pass 0
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_¿ÝÖ¦2.dds
+			}
+		}
+
+	}
+
+}
+material ×®5Ö¦
+{
+	technique 
+	{
+		pass 0
+		{
+			ambient 0.968628 0.968628 0.968628 1
+			diffuse 0.968628 0.968628 0.968628 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_¿ÝÖ¦.dds
+			}
+		}
+
+	}
+
+}
+material ×®5Ò¶
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_À«Ò¶.dds
+			}
+		}
+
+	}
+
+}
+material ¾ÞËÉ¸É
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/jpg_ËÉ.dds
+			}
+		}
+
+	}
+
+}
+material ¾ÞËÉÒ¶
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_ËÉ°ØÒ¶.dds
+			}
+		}
+
+	}
+
+}
+material ¾ÞËÉÒ¶2
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_ËÉ°ØÒ¶2.dds
+			}
+		}
+
+	}
+
+}
+material ¾ÞËÉ¸É2
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/jpg_ËÉ2.dds
+			}
+		}
+
+	}
+
+}
+material ËÉ°ØÒ¶
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0Ê÷Ä¾/tga_ËÉ°ØÒ¶.dds
+			}
+		}
+
+	}
+
+}
+material ¿ÝÊ÷2¸É
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/jpg_À«Ò¶Æ¤.dds
+			}
+		}
+
+	}
+
+}
+material À«Ò¶Ò¶
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_À«Ò¶.dds
+			}
+		}
+
+	}
+
+}
+material À«Ò¶10¸ù
+{
+	technique 
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 0Ê÷Ä¾/jpg_À«Ò¶Æ¤¸ù.dds
+			}
+		}
+
+	}
+
+}
+material À«Ò¶10Ê¯Í·
+{
+	technique 
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 12.8
+
+			texture_unit
+			{
+				texture 0Ê÷Ä¾/jpg_Ê¯Í·4.dds
+			}
+		}
+
+	}
+
+}
+material Ãç½®Ê÷Ò¶×Ó
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_Ãç½®Ê÷1.dds
+			}
+		}
+
+	}
+}
+material ÁøÒ¶
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0Ê÷Ä¾/tga_ÁøÊ÷.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+
+
+
+material °Å½¶
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_°Å½¶.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à1
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à1.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à2
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à2.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à4
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à4.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à5
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à5.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à6
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à6.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à7
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à7.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à12
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à12.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à13¹û
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à13.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à15
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_´ó¹à15.dds
+			}
+		}
+
+	}
+
+}
+material ´ó¹à16
+{
+	technique 
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_´ó¹à16.dds
+			}
+		}
+
+	}
+
+}
+material ¿ÝÖ¦
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_¿ÝÖ¦.dds
+			}
+		}
+
+	}
+
+}
+material ¿ÝÖ¦1
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_¿ÝÖ¦1.dds
+			}
+		}
+
+	}
+
+}
+material ²Ý4
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_²Ý4.dds
+			}
+		}
+
+	}
+
+}
+material ²Ý5
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_²Ý5.dds
+			}
+		}
+
+	}
+
+}
+material Â«Î­
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_Â«Î­.dds
+			}
+		}
+
+	}
+
+}
+material ÈÈ´ø¹àÄ¾
+{
+	technique 
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_ÈÈ´ø¹àÄ¾01.dds
+			}
+		}
+
+	}
+
+}
+material Ë®²Ý1
+{
+	technique 
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_Ë®²Ý1.dds
+			}
+		}
+
+	}
+
+}
+material Ë®²Ý3
+{
+	technique 
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_Ë®²Ý3.dds
+			}
+		}
+
+	}
+
+}
+material Î÷ºþºÉ»¨1
+{
+	technique
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.4 0.4 0.4 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_Î÷ºþºÉ»¨.dds
+			}
+		}
+
+	}
+
+}
+
+material Î÷ºþºÉ»¨
+{
+	technique
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			emissive 0.15 0.15 0.15 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_Î÷ºþºÉ»¨.dds
+			}
+		}
+
+	}
+
+}
+material Ð¡¹à1
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_Ð¡¹à1.dds
+			}
+		}
+
+	}
+
+}
+material Ñ©ËÉÊ÷¸Ë
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/jpg_³¤°×É½Ñ©ËÉ.dds
+			}
+		}
+
+	}
+
+}
+material ð°Î²»¨
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.3 0.3 0.3 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_ð°Î²»¨.dds
+			}
+		}
+
+	}
+
+}
+material ²Ý11
+{
+	technique 
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0¹àÄ¾/tga_²Ý11.dds
+			}
+		}
+
+	}
+
+}
+material Ë®²Ý
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 19.2
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture 0¹àÄ¾/tga_²Ý8.dds
+			}
+		}
+
+	}
+
+}
+material ¾µºþÉ¹Óã¼Ü
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþÓæÃñ·¿×Ó.dds
+			}
+		}
+
+	}
+
+}
+material ¾µºþÉ¹Óã¼ÜÓã
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþÉ¹Óã¼ÜÓã.dds
+			}
+		}
+
+	}
+
+}
+
+material ¾µºþ´óÃÅ
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþ´óÃÅ.dds
+			}
+		}
+
+	}
+
+}
+material ¾µºþ´óÃÅ·¿
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþ·¿×Ó.dds
+			}
+		}
+
+	}
+
+}
+
+material ¾µºþÐ¡É¹Óã¼Ü
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþ´óÃÅ.dds
+			}
+		}
+
+	}
+
+}
+material ¾µºþµÆÁý
+{
+	technique 
+	{
+		pass
+		{
+			ambient 0.988235 0.988235 0.988235 1
+			diffuse 0.988235 0.988235 0.988235 1
+			emissive 0.197647 0.197647 0.197647 1
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture ¾µºþ/tga_¾µºþµÆÁý.dds
+			}
+		}
+
+	}
+
+}
+material ¾µºþÐ¡É¹Óã¼ÜÅÌ
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþÓæÃñ·¿×Ó.dds
+			}
+		}
+
+	}
+
+}
+
+material ¾µºþÓæÃñ·¿×Óµ×
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþ·¿×Ó.dds
+			}
+		}
+
+	}
+
+}
+
+
+material ¾µºþ»¨´¬
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþ»¨´¬.dds
+			}
+		}
+
+	}
+
+}
+material Ð¡½¨Öþ²èºø
+{
+	technique 
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture ¹«ÓÃÐ¡½¨Öþ/tga_ÄÏ·½Ò°Íâ²¼Á±.dds
+			}
+		}
+
+	}
+
+}
+material ½­ÄÏÐ¡Ê¯Í·
+{
+	technique 
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 12.8
+
+			texture_unit
+			{
+				texture ¹«ÓÃÐ¡½¨Öþ/jpg_½­ÄÏÐ¡Ê¯Í·1.dds
+			}
+		}
+
+	}
+
+}
+material º£ÄÏÐ¡Ê¯Í·
+{
+	technique 
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 12.8
+
+			texture_unit
+			{
+				texture ¹«ÓÃÐ¡½¨Öþ/jpg_º£ÄÏÐ¡Ê¯Í·1.dds
+			}
+		}
+
+	}
+
+}
+material Å©´åÄ¾ÇÅ
+{
+	technique 
+	{
+		pass 0
+		{
+
+			texture_unit 0
+			{
+				texture Å©´å/tga_Å©´å¶¥.dds
+			}
+		}
+
+	}
+
+}
+material ÕÊÅñ
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture 0ÎïÆ·/tga_Á±×Ó.dds
+			}
+		}
+
+	}
+
+}
+material Îäµ±½£ºÓÇÅ
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture Îäµ±/tga_Îäµ±½£ºÓÇÅ.dds
+			}
+		}
+
+	}
+
+}
+material Îäµ±½£ºÓÇÅ½ðÊô
+{
+	technique 
+	{
+		pass 0
+		{
+			specular 0.588235 0.588235 0.588235 1 102.4
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture Îäµ±/tga_Îäµ±½£ºÓÇÅ.dds
+			}
+		}
+
+	}
+
+}
+material pubu_1
+{
+	technique 
+	{
+		pass
+		{
+		
+			diffuse vertexcolour
+			
+			scene_blend alpha_blend
+lighting off
+
+depth_write off
+
+			texture_unit
+			{
+				texture Ë®ÆÙ²¼/tga_pubu1.dds
+	   scroll_anim 0 0.3
+	   
+			}
+		}
+
+	}
+
+}
+material pubu1
+{
+	technique 
+	{
+		pass
+		{
+		
+			diffuse vertexcolour
+			
+			scene_blend alpha_blend
+lighting off
+
+depth_write off
+
+			texture_unit
+			{
+				texture Ë®ÆÙ²¼/tga_pubu1.dds
+	   scroll_anim 0 0.6
+	   
+			}
+		}
+
+	}
+
+}
+material áÔÉ½Ê¯ÇÅ
+{
+	technique
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 12.8
+
+			texture_unit
+			{
+				texture áÔÉ½/jpg_áÔÉ½Ê¯ÇÅ.dds
+			}
+		}
+	}
+}
+material Ë®¸×2
+{
+	technique
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 12.8
+
+			texture_unit
+			{
+				texture 0ÎïÆ·/jpg_Ë®¸×.dds
+			}
+		}
+
+	}
+
+}
+
+material ·ÉÄñ
+{
+	technique 
+	{
+		pass
+		{
+			emissive 0.3 0.3 0.3 1
+
+			texture_unit
+			{
+				texture Ð¡¶¯Îï/jpg_Óã.dds
+			}
+		}
+
+	}
+
+}
+
+material É¹Óã¼Ü³ôÓã
+{
+	technique 
+	{
+		pass 0
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit 0
+			{
+				texture ¾µºþ/tga_¾µºþ³ôÓã.dds
+			}
+		}
+
+	}
+
+}
+
+material µ¶
+{
+	technique 
+	{
+		pass
+		{
+			specular 0.588235 0.588235 0.588235 1 102.4
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture ¾µºþ/tga_Óãµ¶.dds
+			}
+		}
+
+	}
+
+}

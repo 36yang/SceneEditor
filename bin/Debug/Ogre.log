@@ -1,0 +1,980 @@
+13:40:38: Creating resource group General
+13:40:38: Creating resource group Internal
+13:40:38: Creating resource group Autodetect
+13:40:38: SceneManagerFactory for type 'DefaultSceneManager' registered.
+13:40:38: Registering ResourceManager for type Material
+13:40:38: Registering ResourceManager for type Mesh
+13:40:38: Registering ResourceManager for type Skeleton
+13:40:38: MovableObjectFactory for type 'ParticleSystem' registered.
+13:40:38: ArchiveFactory for archive type FileSystem registered.
+13:40:38: ArchiveFactory for archive type Zip registered.
+13:40:38: ArchiveFactory for archive type EmbeddedZip registered.
+13:40:38: DDS codec registering
+13:40:38: FreeImage version: 3.15.3
+13:40:38: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+13:40:38: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
+13:40:38: Registering ResourceManager for type HighLevelGpuProgram
+13:40:38: Registering ResourceManager for type Compositor
+13:40:38: MovableObjectFactory for type 'Entity' registered.
+13:40:38: MovableObjectFactory for type 'Light' registered.
+13:40:38: MovableObjectFactory for type 'BillboardSet' registered.
+13:40:38: MovableObjectFactory for type 'ManualObject' registered.
+13:40:38: MovableObjectFactory for type 'BillboardChain' registered.
+13:40:38: MovableObjectFactory for type 'RibbonTrail' registered.
+13:40:38: Loading library .\RenderSystem_Direct3D9_d
+13:40:38: Installing plugin: D3D9 RenderSystem
+13:40:38: D3D9 : Direct3D9 Rendering Subsystem created.
+13:40:38: D3D9: Driver Detection Starts
+13:40:38: D3D9: Driver Detection Ends
+13:40:38: Plugin successfully installed
+13:40:38: Loading library .\Plugin_ParticleFX_d
+13:40:38: Installing plugin: ParticleFX
+13:40:38: Particle Emitter Type 'Point' registered
+13:40:38: Particle Emitter Type 'Box' registered
+13:40:38: Particle Emitter Type 'Ellipsoid' registered
+13:40:38: Particle Emitter Type 'Cylinder' registered
+13:40:38: Particle Emitter Type 'Ring' registered
+13:40:38: Particle Emitter Type 'HollowEllipsoid' registered
+13:40:38: Particle Affector Type 'LinearForce' registered
+13:40:38: Particle Affector Type 'ColourFader' registered
+13:40:38: Particle Affector Type 'ColourFader2' registered
+13:40:38: Particle Affector Type 'ColourImage' registered
+13:40:38: Particle Affector Type 'ColourInterpolator' registered
+13:40:38: Particle Affector Type 'Scaler' registered
+13:40:38: Particle Affector Type 'Rotator' registered
+13:40:38: Particle Affector Type 'DirectionRandomiser' registered
+13:40:38: Particle Affector Type 'DeflectorPlane' registered
+13:40:38: Plugin successfully installed
+13:40:38: Loading library .\Plugin_BSPSceneManager_d
+13:40:39: Installing plugin: BSP Scene Manager
+13:40:39: Plugin successfully installed
+13:40:39: Loading library .\Plugin_CgProgramManager_d
+13:40:39: Installing plugin: Cg Program Manager
+13:40:39: Plugin successfully installed
+13:40:39: Loading library .\ParticleUniverse_d
+13:40:39: Installing plugin: ParticleUniverse
+13:40:39: MovableObjectFactory for type 'PUParticleSystem' registered.
+13:40:39: MovableObjectFactory for type 'BoxSet' registered.
+13:40:39: MovableObjectFactory for type 'SphereSet' registered.
+13:40:39: ParticleUniverse: Particle Renderer Type 'Beam' registered
+13:40:39: ParticleUniverse: Particle Renderer Type 'Billboard' registered
+13:40:39: ParticleUniverse: Particle Renderer Type 'Box' registered
+13:40:39: ParticleUniverse: Particle Renderer Type 'Sphere' registered
+13:40:39: ParticleUniverse: Particle Renderer Type 'Entity' registered
+13:40:39: ParticleUniverse: Particle Renderer Type 'RibbonTrail' registered
+13:40:39: ParticleUniverse: Particle Renderer Type 'Light' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Point' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Line' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Box' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Circle' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'SphereSurface' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Vertex' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'MeshSurface' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Position' registered
+13:40:39: ParticleUniverse: Particle Emitter Type 'Slave' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Dummy01' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'LinearForce' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Gravity' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'ParticleFollower' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Vortex' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Randomiser' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Line' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Scale' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'ScaleVelocity' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'GeometryRotator' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'TextureRotator' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'TextureAnimator' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Jet' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Align' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'FlockCentering' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'CollisionAvoidance' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'VelocityMatching' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Colour' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'SineForce' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'Dummy02' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'SphereCollider' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'PlaneCollider' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'BoxCollider' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'InterParticleCollider' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'PathFollower' registered
+13:40:39: ParticleUniverse: Particle Affector Type 'ForceField' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnExpire' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnEmission' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnCount' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnEventFlag' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnCollision' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnVelocity' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnTime' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnPosition' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnClear' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnQuota' registered
+13:40:39: ParticleUniverse: Particle Observer Type 'OnRandom' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoExpire' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoFreeze' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoPlacementParticle' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoStopSystem' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoEnableComponent' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoAffector' registered
+13:40:39: ParticleUniverse: Particle EventHandler Type 'DoScale' registered
+13:40:39: ParticleUniverse: Particle Extern Type 'Gravity' registered
+13:40:39: ParticleUniverse: Particle Extern Type 'SphereCollider' registered
+13:40:39: ParticleUniverse: Particle Extern Type 'BoxCollider' registered
+13:40:39: ParticleUniverse: Particle Extern Type 'Vortex' registered
+13:40:39: ParticleUniverse: Particle Extern Type 'SceneDecorator' registered
+13:40:39: ParticleUniverse: Particle Behaviour Type 'Slave' registered
+13:40:39: Plugin successfully installed
+13:40:39: *-*-* OGRE Initialising
+13:40:39: *-*-* Version 1.9.0 (Ghadamon)
+13:40:39: D3D9 : RenderSystem Option: Allow DirectX9Ex = No
+13:40:39: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+13:40:39: D3D9 : RenderSystem Option: FSAA = 0
+13:40:39: D3D9 : RenderSystem Option: Fixed Pipeline Enabled = Yes
+13:40:39: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+13:40:39: D3D9 : RenderSystem Option: Full Screen = No
+13:40:39: D3D9 : RenderSystem Option: Multi device memory hint = Use minimum system memory
+13:40:39: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-AMD Radeon HD 7640G + 6400M Dual Graphics
+13:40:39: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+13:40:39: D3D9 : RenderSystem Option: Use Multihead = Auto
+13:40:39: D3D9 : RenderSystem Option: VSync = No
+13:40:39: D3D9 : RenderSystem Option: VSync Interval = 1
+13:40:39: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+13:40:39: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+13:40:39: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-Intel(R) HD Graphics
+13:40:39: D3D9 : RenderSystem Option: Allow DirectX9Ex = No
+13:40:39: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+13:40:39: D3D9 : RenderSystem Option: FSAA = 0
+13:40:39: D3D9 : RenderSystem Option: Fixed Pipeline Enabled = Yes
+13:40:39: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+13:40:39: D3D9 : RenderSystem Option: Full Screen = No
+13:40:39: D3D9 : RenderSystem Option: Multi device memory hint = Use minimum system memory
+13:40:39: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-AMD Radeon HD 7640G + 6400M Dual Graphics
+13:40:39: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+13:40:39: D3D9 : RenderSystem Option: Use Multihead = Auto
+13:40:39: D3D9 : RenderSystem Option: VSync = No
+13:40:39: D3D9 : RenderSystem Option: VSync Interval = 1
+13:40:39: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+13:40:39: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+13:40:39: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-Intel(R) HD Graphics
+13:42:04: CPU Identifier & Features
+13:42:04: -------------------------
+13:42:04:  *   CPU ID: GenuineIntel: Intel(R) Atom(TM) CPU  Z3735F @ 1.33GHz
+13:42:04:  *      SSE: yes
+13:42:04:  *     SSE2: yes
+13:42:04:  *     SSE3: yes
+13:42:04:  *      MMX: yes
+13:42:04:  *   MMXEXT: yes
+13:42:04:  *    3DNOW: no
+13:42:04:  * 3DNOWEXT: no
+13:42:04:  *     CMOV: yes
+13:42:04:  *      TSC: yes
+13:42:04:  *      FPU: yes
+13:42:04:  *      PRO: yes
+13:42:04:  *       HT: no
+13:42:04: -------------------------
+13:42:04: D3D9 : Subsystem Initialising
+13:42:04: Registering ResourceManager for type Texture
+13:42:04: Registering ResourceManager for type GpuProgram
+13:42:04: ***************************************
+13:42:04: *** D3D9 : Subsystem Initialised OK ***
+13:42:04: ***************************************
+13:42:04: D3D9RenderSystem::_createRenderWindow "OgreRenderWindow", 582x594 windowed  miscParams: externalWindowHandle=198556 
+13:42:04: D3D9 : Created D3D9 Rendering Window 'OgreRenderWindow' : 582x594, 32bpp
+13:42:04: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:42:04: D3D9: Vertex texture format supported - PF_L8
+13:42:04: D3D9: Vertex texture format supported - PF_L16
+13:42:04: D3D9: Vertex texture format supported - PF_A8
+13:42:04: D3D9: Vertex texture format supported - PF_A4L4
+13:42:04: D3D9: Vertex texture format supported - PF_BYTE_LA
+13:42:04: D3D9: Vertex texture format supported - PF_R5G6B5
+13:42:04: D3D9: Vertex texture format supported - PF_B5G6R5
+13:42:04: D3D9: Vertex texture format supported - PF_A4R4G4B4
+13:42:04: D3D9: Vertex texture format supported - PF_A1R5G5B5
+13:42:04: D3D9: Vertex texture format supported - PF_A8R8G8B8
+13:42:04: D3D9: Vertex texture format supported - PF_B8G8R8A8
+13:42:04: D3D9: Vertex texture format supported - PF_A2R10G10B10
+13:42:04: D3D9: Vertex texture format supported - PF_A2B10G10R10
+13:42:04: D3D9: Vertex texture format supported - PF_DXT1
+13:42:04: D3D9: Vertex texture format supported - PF_DXT2
+13:42:04: D3D9: Vertex texture format supported - PF_DXT3
+13:42:04: D3D9: Vertex texture format supported - PF_DXT4
+13:42:04: D3D9: Vertex texture format supported - PF_DXT5
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+13:42:04: D3D9: Vertex texture format supported - PF_X8R8G8B8
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8B8A8
+13:42:04: D3D9: Vertex texture format supported - PF_DEPTH
+13:42:04: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT16_R
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT32_R
+13:42:04: D3D9: Vertex texture format supported - PF_SHORT_GR
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+13:42:04: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+13:42:04: D3D9: Vertex texture format supported - PF_SHORT_RGB
+13:42:04: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+13:42:04: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+13:42:04: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+13:42:04: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+13:42:04: D3D9: Vertex texture format supported - PF_PVRTC2_2BPP
+13:42:04: D3D9: Vertex texture format supported - PF_PVRTC2_4BPP
+13:42:04: D3D9: Vertex texture format supported - PF_R11G11B10_FLOAT
+13:42:04: D3D9: Vertex texture format supported - PF_R8_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8B8_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8B8A8_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16G16_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16G16B16_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16G16B16A16_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32G32_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32G32B32_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32G32B32A32_UINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8B8_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R8G8B8A8_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16G16_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16G16B16_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R16G16B16A16_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32G32_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32G32B32_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R32G32B32A32_SINT
+13:42:04: D3D9: Vertex texture format supported - PF_R9G9B9E5_SHAREDEXP
+13:42:04: D3D9: Vertex texture format supported - PF_BC4_UNORM
+13:42:04: D3D9: Vertex texture format supported - PF_BC4_SNORM
+13:42:04: D3D9: Vertex texture format supported - PF_BC5_UNORM
+13:42:04: D3D9: Vertex texture format supported - PF_BC5_SNORM
+13:42:04: D3D9: Vertex texture format supported - PF_BC6H_UF16
+13:42:04: D3D9: Vertex texture format supported - PF_BC6H_SF16
+13:42:04: D3D9: Vertex texture format supported - PF_BC7_UNORM
+13:42:04: D3D9: Vertex texture format supported - PF_BC7_UNORM_SRGB
+13:42:04: D3D9: Vertex texture format supported - PF_R8
+13:42:04: D3D9: Vertex texture format supported - PF_RG8
+13:42:05: D3D9: Vertex texture format supported - PF_R8_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R8G8_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R8G8B8_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R8G8B8A8_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R16_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R16G16_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R16G16B16_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_R16G16B16A16_SNORM
+13:42:05: D3D9: Vertex texture format supported - PF_ETC1_RGB8
+13:42:05: D3D9: Vertex texture format supported - PF_ETC2_RGB8
+13:42:05: D3D9: Vertex texture format supported - PF_ETC2_RGBA8
+13:42:05: D3D9: Vertex texture format supported - PF_ETC2_RGB8A1
+13:42:05: D3D9: Vertex texture format supported - PF_ATC_RGB
+13:42:05: D3D9: Vertex texture format supported - PF_ATC_RGBA_EXPLICIT_ALPHA
+13:42:05: D3D9: Vertex texture format supported - PF_ATC_RGBA_INTERPOLATED_ALPHA
+13:42:05: RenderSystem capabilities
+13:42:05: -------------------------
+13:42:05: RenderSystem Name: Direct3D9 Rendering Subsystem
+13:42:05: GPU Vendor: intel
+13:42:05: Device Name: Monitor-1-Intel(R) HD Graphics
+13:42:05: Driver Version: 10.18.10.4358
+13:42:05:  * Fixed function pipeline: yes
+13:42:05:  * Hardware generation of mipmaps: yes
+13:42:05:  * Texture blending: yes
+13:42:05:  * Anisotropic texture filtering: yes
+13:42:05:  * Dot product texture operation: yes
+13:42:05:  * Cube mapping: yes
+13:42:05:  * Hardware stencil buffer: yes
+13:42:05:    - Stencil depth: 8
+13:42:05:    - Two sided stencil support: yes
+13:42:05:    - Wrap stencil values: yes
+13:42:05:  * Hardware vertex / index buffers: yes
+13:42:05:  * Vertex programs: yes
+13:42:05:  * Number of floating-point constants for vertex programs: 256
+13:42:05:  * Number of integer constants for vertex programs: 16
+13:42:05:  * Number of boolean constants for vertex programs: 16
+13:42:05:  * Fragment programs: yes
+13:42:05:  * Number of floating-point constants for fragment programs: 224
+13:42:05:  * Number of integer constants for fragment programs: 16
+13:42:05:  * Number of boolean constants for fragment programs: 16
+13:42:05:  * Geometry programs: no
+13:42:05:  * Number of floating-point constants for geometry programs: 0
+13:42:05:  * Number of integer constants for geometry programs: 0
+13:42:05:  * Number of boolean constants for geometry programs: 0
+13:42:05:  * Tesselation Hull programs: no
+13:42:05:  * Number of floating-point constants for tesselation hull programs: 0
+13:42:05:  * Number of integer constants for tesselation hull programs: 0
+13:42:05:  * Number of boolean constants for tesselation hull programs: 0
+13:42:05:  * Tesselation Domain programs: no
+13:42:05:  * Number of floating-point constants for tesselation domain programs: 0
+13:42:05:  * Number of integer constants for tesselation domain programs: 0
+13:42:05:  * Number of boolean constants for tesselation domain programs: 0
+13:42:05:  * Compute programs: no
+13:42:05:  * Number of floating-point constants for compute programs: 0
+13:42:05:  * Number of integer constants for compute programs: 0
+13:42:05:  * Number of boolean constants for compute programs: 0
+13:42:05:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+13:42:05:  * Texture Compression: yes
+13:42:05:    - DXT: yes
+13:42:05:    - VTC: no
+13:42:05:    - PVRTC: no
+13:42:05:    - ATC: no
+13:42:05:    - ETC1: no
+13:42:05:    - ETC2: no
+13:42:05:    - BC4/BC5: no
+13:42:05:    - BC6H/BC7: no
+13:42:05:  * Scissor Rectangle: yes
+13:42:05:  * Hardware Occlusion Query: yes
+13:42:05:  * User clip planes: yes
+13:42:05:  * VET_UBYTE4 vertex element type: yes
+13:42:05:  * Infinite far plane projection: yes
+13:42:05:  * Hardware render-to-texture: yes
+13:42:05:  * Floating point textures: yes
+13:42:05:  * Non-power-of-two textures: yes
+13:42:05:  * 1d textures: yes
+13:42:05:  * Volume textures: yes
+13:42:05:  * Multiple Render Targets: 4
+13:42:05:    - With different bit depths: yes
+13:42:05:  * Point Sprites: yes
+13:42:05:  * Extended point parameters: yes
+13:42:05:  * Max Point Size: 256
+13:42:05:  * Vertex texture fetch: yes
+13:42:05:  * Number of world matrices: 0
+13:42:05:  * Number of texture units: 8
+13:42:05:  * Stencil buffer depth: 8
+13:42:05:  * Number of vertex blend matrices: 0
+13:42:05:    - Max vertex textures: 4
+13:42:05:    - Vertex textures shared: no
+13:42:05:  * Render to Vertex Buffer : no
+13:42:05:  * Hardware Atomic Counters: no
+13:42:05:  * DirectX per stage constants: yes
+13:42:05: DefaultWorkQueue('Root') initialising on thread 178c.
+13:42:05: DefaultWorkQueue('Root')::WorkerFunc - thread 1968 starting.
+13:42:05: DefaultWorkQueue('Root')::WorkerFunc - thread c70 starting.
+13:42:05: DefaultWorkQueue('Root')::WorkerFunc - thread 186c starting.
+13:42:05: DefaultWorkQueue('Root')::WorkerFunc - thread 1c2c starting.
+13:42:05: Particle Renderer Type 'billboard' registered
+13:42:05: SceneManagerFactory for type 'BspSceneManager' registered.
+13:42:05: Registering ResourceManager for type BspLevel
+13:42:05: Creating resource group ET
+13:42:05: Added resource location '../media/ET' of type 'FileSystem' to resource group 'ET'
+13:42:05: Added resource location '../media/sound' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/models' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/scripts' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/alpine' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/ashcanyon' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/bleached' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/bluesky' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/calm' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/cubemap' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/cubescene' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/desert' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/desert3' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/desertevening' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/desertsky' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/fadeaway' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/grandcanyon' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/iceflats' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/lostatseaday' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/lostatseanight' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/lostvalley' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/oasisday' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/oasisnight' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/orangecream' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/redsunset_TGA' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/rockyvalley' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/siege' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/BoxSky/starLight' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/DomeSky' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/PlaneSky' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/materials/textures/Terrain' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/particale' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/particale/ParticleUniverse/core' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/particale/ParticleUniverse/examples/materials' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/particale/ParticleUniverse/examples/models' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/particale/ParticleUniverse/examples/scripts' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/particale/ParticleUniverse/examples/textures' of type 'FileSystem' to resource group 'General'
+13:42:05: Added resource location '../media/packs/Sinbad.zip' of type 'Zip' to resource group 'General'
+13:42:05: Added resource location '../media/packs/SECore.zip' of type 'Zip' to resource group 'General'
+13:42:05: Parsing scripts for resource group Autodetect
+13:42:05: Finished parsing scripts for resource group Autodetect
+13:42:05: Creating resources for group Autodetect
+13:42:05: All done
+13:42:05: Parsing scripts for resource group ET
+13:42:05: Finished parsing scripts for resource group ET
+13:42:05: Creating resources for group ET
+13:42:05: All done
+13:42:05: Parsing scripts for resource group General
+13:42:05: Parsing script all.material
+13:42:07: Parsing script Boxsky.material
+13:42:08: Parsing script DomeSky.material
+13:42:08: Parsing script Examples.material
+13:42:08: Parsing script PlaneSky.material
+13:42:08: Parsing script pu_example.material
+13:42:09: Parsing script pu_example_32.material
+13:42:09: Parsing script Sinbad.material
+13:42:09: Parsing script Pointor.material
+13:42:10: Parsing script SEMaterial.material
+13:42:10: Parsing script Loudspeaker.material
+13:42:10: Parsing script advancedLodSystem.pu
+13:42:10: Compiler error: unknown error in advancedLodSystem.pu(1): token class, system, unrecognized.
+13:42:10: Compiler error: unknown error in advancedLodSystem.pu(13): token class, renderer, unrecognized.
+13:42:10: Compiler error: unknown error in advancedLodSystem.pu(21): token class, time_to_live, unrecognized.
+13:42:10: Compiler error: unknown error in advancedLodSystem.pu(39): token class, renderer, unrecognized.
+13:42:10: Compiler error: unknown error in advancedLodSystem.pu(46): token class, time_to_live, unrecognized.
+13:42:10: ParticleUniverse: Particle System Template 'advancedLodSystem' registered
+13:42:10: Texture: pu_barrel_02.png: Loading 1 faces(PF_R8G8B8,512x512x1) Internal format is PF_X8R8G8B8,512x512x1.
+13:42:10: Texture: pu_barrel_01.png: Loading 1 faces(PF_R8G8B8,98x117x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,98x117x1.
+13:42:10: Parsing script electricBeamSystem.pu
+13:42:10: Compiler error: unknown error in electricBeamSystem.pu(1): token class, system, unrecognized.
+13:42:10: Compiler error: unknown error in electricBeamSystem.pu(9): token class, renderer, unrecognized.
+13:42:10: Compiler error: unknown error in electricBeamSystem.pu(42): token class, renderer, unrecognized.
+13:42:10: ParticleUniverse: Particle System Template 'electricBeamSystem' registered
+13:42:10: Texture: pu_lightning_20x64.png: Loading 1 faces(PF_A8R8G8B8,20x64x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,20x64x1.
+13:42:10: Parsing script example_001.pu
+13:42:10: Compiler error: unknown error in example_001.pu(1): token class, system, unrecognized.
+13:42:10: Compiler error: unknown error in example_001.pu(12): token class, renderer, unrecognized.
+13:42:10: ParticleUniverse: Particle System Template 'example_001' registered
+13:42:10: Texture: pu_green_ball.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) Internal format is PF_A8R8G8B8,64x64x1.
+13:42:10: Parsing script example_002.pu
+13:42:10: Compiler error: unknown error in example_002.pu(1): token class, system, unrecognized.
+13:42:10: Compiler error: unknown error in example_002.pu(11): token class, renderer, unrecognized.
+13:42:10: Compiler error: unknown error in example_002.pu(19): token class, duration, unrecognized.
+13:42:10: Compiler error: unknown error in example_002.pu(24): token class, repeat_delay, unrecognized.
+13:42:10: ParticleUniverse: Particle System Template 'example_002' registered
+13:42:11: Texture: pu_hart.png: Loading 1 faces(PF_A8R8G8B8,152x139x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,152x139x1.
+13:42:11: Parsing script example_003.pu
+13:42:11: Compiler error: unknown error in example_003.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_003.pu(13): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_003' registered
+13:42:11: Texture: pu_beam_02.png: Loading 1 faces(PF_R8G8B8,128x1x1) Internal format is PF_X8R8G8B8,128x1x1.
+13:42:11: Parsing script example_004.pu
+13:42:11: Compiler error: unknown error in example_004.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_004.pu(10): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_004' registered
+13:42:11: Texture: pu_flare_12_256x256.png: Loading 1 faces(PF_R8G8B8,256x256x1) Internal format is PF_X8R8G8B8,256x256x1.
+13:42:11: Parsing script example_005.pu
+13:42:11: Compiler error: unknown error in example_005.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_005.pu(12): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_005.pu(31): token class, extern, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_005' registered
+13:42:11: Parsing script example_006.pu
+13:42:11: Compiler error: unknown error in example_006.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_006.pu(12): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_006' registered
+13:42:11: Texture: crate6.png: Loading 1 faces(PF_R8G8B8,341x512x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,341x512x1.
+13:42:11: Parsing script example_007.pu
+13:42:11: Compiler error: unknown error in example_007.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_007.pu(11): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_007.pu(30): token class, repeat_delay, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_007' registered
+13:42:11: Texture: pu_flare.png: Loading 1 faces(PF_R8G8B8,256x256x1) Internal format is PF_X8R8G8B8,256x256x1.
+13:42:11: Parsing script example_008.pu
+13:42:11: Compiler error: unknown error in example_008.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_008.pu(11): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_008.pu(25): token class, observer, unrecognized.
+13:42:11: Compiler error: unknown error in example_008.pu(28): token class, handler, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_008' registered
+13:42:11: Parsing script example_009.pu
+13:42:11: Compiler error: unknown error in example_009.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_009.pu(10): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_009' registered
+13:42:11: Parsing script example_010.pu
+13:42:11: Compiler error: unknown error in example_010.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_010.pu(10): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_010.pu(28): token class, acceleration, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_010' registered
+13:42:11: Parsing script example_011.pu
+13:42:11: Compiler error: unknown error in example_011.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_011.pu(9): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_011.pu(16): token class, emission_rate, unrecognized.
+13:42:11: Compiler error: unknown error in example_011.pu(25): token class, time_to_live, unrecognized.
+13:42:11: Compiler error: unknown error in example_011.pu(30): token class, velocity, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_011' registered
+13:42:11: Parsing script example_012.pu
+13:42:11: Compiler error: unknown error in example_012.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_012.pu(10): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_012.pu(36): token class, acceleration, unrecognized.
+13:42:11: Compiler error: unknown error in example_012.pu(42): token class, observer, unrecognized.
+13:42:11: Compiler error: unknown error in example_012.pu(44): token class, handler, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_012' registered
+13:42:11: Texture: pu_dot_03_64x64.png: Loading 1 faces(PF_R8G8B8,64x64x1) Internal format is PF_X8R8G8B8,64x64x1.
+13:42:11: Parsing script example_013.pu
+13:42:11: Compiler error: unknown error in example_013.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_013.pu(10): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_013' registered
+13:42:11: Parsing script example_015.pu
+13:42:11: Compiler error: unknown error in example_015.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_015.pu(11): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_015' registered
+13:42:11: Parsing script example_016.pu
+13:42:11: Compiler error: unknown error in example_016.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_016.pu(10): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_016.pu(19): token class, velocity, unrecognized.
+13:42:11: Compiler error: unknown error in example_016.pu(28): token class, x_scale, unrecognized.
+13:42:11: Compiler error: unknown error in example_016.pu(36): token class, y_scale, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_016' registered
+13:42:11: Texture: pu_dirt_256x512.png: Loading 1 faces(PF_A8R8G8B8,256x512x1) Internal format is PF_A8R8G8B8,256x512x1.
+13:42:11: Parsing script example_017.pu
+13:42:11: Compiler error: unknown error in example_017.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_017.pu(12): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_017.pu(20): token class, velocity, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_017' registered
+13:42:11: Parsing script example_018.pu
+13:42:11: Compiler error: unknown error in example_018.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_018.pu(10): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_018.pu(20): token class, observer, unrecognized.
+13:42:11: Compiler error: unknown error in example_018.pu(22): token class, handler, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_018' registered
+13:42:11: Parsing script example_019.pu
+13:42:11: Compiler error: unknown error in example_019.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_019.pu(10): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_019.pu(48): token class, observer, unrecognized.
+13:42:11: Compiler error: unknown error in example_019.pu(50): token class, handler, unrecognized.
+13:42:11: Compiler error: unknown error in example_019.pu(55): token class, observer, unrecognized.
+13:42:11: Compiler error: unknown error in example_019.pu(57): token class, handler, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_019' registered
+13:42:11: Parsing script example_020.pu
+13:42:11: Compiler error: unknown error in example_020.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_020.pu(10): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_020' registered
+13:42:11: Parsing script example_021.pu
+13:42:11: Compiler error: unknown error in example_021.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_021.pu(12): token class, renderer, unrecognized.
+13:42:11: Compiler error: unknown error in example_021.pu(28): token class, time_to_live, unrecognized.
+13:42:11: Compiler error: unknown error in example_021.pu(33): token class, velocity, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_021' registered
+13:42:11: Parsing script example_022.pu
+13:42:11: Compiler error: unknown error in example_022.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_022.pu(8): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_022' registered
+13:42:11: Texture: pu_ribbontrail.png: Loading 1 faces(PF_R8G8B8,128x1x1) Internal format is PF_X8R8G8B8,128x1x1.
+13:42:11: Parsing script example_023.pu
+13:42:11: Compiler error: unknown error in example_023.pu(1): token class, system, unrecognized.
+13:42:11: Compiler error: unknown error in example_023.pu(12): token class, renderer, unrecognized.
+13:42:11: ParticleUniverse: Particle System Template 'example_023' registered
+13:42:11: Parsing script example_024.pu
+13:42:12: Compiler error: unknown error in example_024.pu(1): token class, system, unrecognized.
+13:42:12: Compiler error: unknown error in example_024.pu(8): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_024.pu(35): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_024.pu(64): token class, renderer, unrecognized.
+13:42:12: ParticleUniverse: Particle System Template 'example_024' registered
+13:42:12: Parsing script example_025.pu
+13:42:12: Compiler error: unknown error in example_025.pu(1): token class, system, unrecognized.
+13:42:12: Compiler error: unknown error in example_025.pu(9): token class, renderer, unrecognized.
+13:42:12: ParticleUniverse: Particle System Template 'example_025' registered
+13:42:12: Parsing script example_026.pu
+13:42:12: Compiler error: unknown error in example_026.pu(1): token class, system, unrecognized.
+13:42:12: Compiler error: unknown error in example_026.pu(11): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_026.pu(19): token class, velocity, unrecognized.
+13:42:12: Compiler error: unknown error in example_026.pu(35): token class, velocity, unrecognized.
+13:42:12: ParticleUniverse: Particle System Template 'example_026' registered
+13:42:12: Parsing script example_027.pu
+13:42:12: Compiler error: unknown error in example_027.pu(1): token class, system, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(13): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(65): token class, observer, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(68): token class, handler, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(72): token class, handler, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(79): token class, observer, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(82): token class, handler, unrecognized.
+13:42:12: Compiler error: unknown error in example_027.pu(86): token class, handler, unrecognized.
+13:42:12: ParticleUniverse: Particle System Template 'example_027' registered
+13:42:12: Texture: steelhead.png: Loading 1 faces(PF_R8G8B8,256x256x1) Internal format is PF_X8R8G8B8,256x256x1.
+13:42:12: Parsing script example_028.pu
+13:42:12: Compiler error: unknown error in example_028.pu(1): token class, system, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(10): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(23): token class, xyz_scale, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(39): token class, rotation, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(46): token class, behaviour, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(57): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(88): token class, xyz_scale, unrecognized.
+13:42:12: Compiler error: unknown error in example_028.pu(98): token class, rotation, unrecognized.
+13:42:12: ParticleUniverse: Particle System Template 'example_028' registered
+13:42:12: Texture: pu_nucleus.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) Internal format is PF_A8R8G8B8,64x64x1.
+13:42:12: Texture: pu_smoke_02_128x128.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) Internal format is PF_A8R8G8B8,128x128x1.
+13:42:12: Parsing script example_029.pu
+13:42:12: Compiler error: unknown error in example_029.pu(1): token class, system, unrecognized.
+13:42:12: Compiler error: unknown error in example_029.pu(11): token class, renderer, unrecognized.
+13:42:12: Compiler error: unknown error in example_029.pu(19): token class, time_to_live, unrecognized.
+13:42:12: Compiler error: unknown error in example_029.pu(24): token class, velocity, unrecognized.
+13:42:12: ParticleUniverse: Particle System Template 'example_029' registered
+13:42:12: Texture: interpolate.png: Loading 1 faces(PF_A8R8G8B8,384x384x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,384x384x1.
+13:42:13: Parsing script example_030.pu
+13:42:13: Compiler error: unknown error in example_030.pu(1): token class, system, unrecognized.
+13:42:13: Compiler error: unknown error in example_030.pu(14): token class, renderer, unrecognized.
+13:42:13: Compiler error: unknown error in example_030.pu(36): token class, renderer, unrecognized.
+13:42:13: ParticleUniverse: Particle System Template 'example_030' registered
+13:42:13: Texture: pu_beam_01.png: Loading 1 faces(PF_R8G8B8,128x1x1) Internal format is PF_X8R8G8B8,128x1x1.
+13:42:13: Parsing script example_031.pu
+13:42:13: Compiler error: unknown error in example_031.pu(1): token class, system, unrecognized.
+13:42:13: Compiler error: unknown error in example_031.pu(12): token class, renderer, unrecognized.
+13:42:13: ParticleUniverse: Particle System Template 'example_031' registered
+13:42:13: Texture: pu_sand_336x330.png: Loading 1 faces(PF_A8R8G8B8,336x330x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,336x330x1.
+13:42:13: Parsing script example_032.pu
+13:42:13: Compiler error: unknown error in example_032.pu(1): token class, system, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(10): token class, renderer, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(17): token class, time_to_live, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(22): token class, velocity, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(41): token class, xyz_scale, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(53): token class, renderer, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(65): token class, observer, unrecognized.
+13:42:13: Compiler error: unknown error in example_032.pu(68): token class, handler, unrecognized.
+13:42:13: ParticleUniverse: Particle System Template 'example_032' registered
+13:42:13: Texture: pu_smoke_brown_336x330.png: Loading 1 faces(PF_A8R8G8B8,336x330x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,336x330x1.
+13:42:13: Parsing script explosionSystem.pu
+13:42:14: Compiler error: unknown error in explosionSystem.pu(1): token class, system, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(9): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(31): token class, observer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(33): token class, handler, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(45): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(62): token class, observer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(64): token class, handler, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(77): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(97): token class, rotation, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(102): token class, rotation_speed, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(116): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(125): token class, velocity, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(131): token class, particle_height, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(149): token class, observer, unrecognized.
+13:42:14: Compiler error: unknown error in explosionSystem.pu(151): token class, handler, unrecognized.
+13:42:14: ParticleUniverse: Particle System Template 'explosionSystem' registered
+13:42:14: Texture: pu_fire_01_64x64.png: Loading 1 faces(PF_R8G8B8,64x64x1) Internal format is PF_X8R8G8B8,64x64x1.
+13:42:14: Parsing script fireSystem.pu
+13:42:14: Compiler error: unknown error in fireSystem.pu(1): token class, system, unrecognized.
+13:42:14: Compiler error: unknown error in fireSystem.pu(9): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in fireSystem.pu(17): token class, time_to_live, unrecognized.
+13:42:14: Compiler error: unknown error in fireSystem.pu(22): token class, velocity, unrecognized.
+13:42:14: Compiler error: unknown error in fireSystem.pu(48): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in fireSystem.pu(54): token class, time_to_live, unrecognized.
+13:42:14: Compiler error: unknown error in fireSystem.pu(59): token class, velocity, unrecognized.
+13:42:14: ParticleUniverse: Particle System Template 'fireSystem' registered
+13:42:14: Texture: pu_flame.png: Loading 1 faces(PF_R8G8B8,64x64x1) Internal format is PF_X8R8G8B8,64x64x1.
+13:42:14: Parsing script flameSystem.pu
+13:42:14: Compiler error: unknown error in flameSystem.pu(1): token class, system, unrecognized.
+13:42:14: Compiler error: unknown error in flameSystem.pu(11): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in flameSystem.pu(19): token class, time_to_live, unrecognized.
+13:42:14: Compiler error: unknown error in flameSystem.pu(24): token class, velocity, unrecognized.
+13:42:14: Compiler error: unknown error in flameSystem.pu(37): token class, time_to_live, unrecognized.
+13:42:14: Compiler error: unknown error in flameSystem.pu(42): token class, mass, unrecognized.
+13:42:14: Compiler error: unknown error in flameSystem.pu(47): token class, velocity, unrecognized.
+13:42:14: ParticleUniverse: Particle System Template 'flameSystem' registered
+13:42:14: Parsing script fxPression.pu
+13:42:14: Compiler error: unknown error in fxPression.pu(1): token class, system, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(9): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(17): token class, velocity, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(39): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(58): token class, observer, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(60): token class, handler, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(64): token class, handler, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(79): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(94): token class, velocity, unrecognized.
+13:42:14: Compiler error: unknown error in fxPression.pu(109): token class, rotation_speed, unrecognized.
+13:42:14: ParticleUniverse: Particle System Template 'fxPression' registered
+13:42:14: Texture: pu_plate.jpg: Loading 1 faces(PF_R8G8B8,300x225x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,300x225x1.
+13:42:14: Mesh: Loading fxpression.mesh.
+13:42:14: WARNING: fxpression.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:14: Parsing script mp_torch.pu
+13:42:14: Compiler error: unknown error in mp_torch.pu(1): token class, system, unrecognized.
+13:42:14: Compiler error: unknown error in mp_torch.pu(8): token class, renderer, unrecognized.
+13:42:14: Compiler error: unknown error in mp_torch.pu(17): token class, time_to_live, unrecognized.
+13:42:14: Compiler error: unknown error in mp_torch.pu(22): token class, velocity, unrecognized.
+13:42:14: Compiler error: unknown error in mp_torch.pu(27): token class, all_particle_dimensions, unrecognized.
+13:42:14: Compiler error: unknown error in mp_torch.pu(43): token class, x_scale, unrecognized.
+13:42:14: Compiler error: unknown error in mp_torch.pu(49): token class, y_scale, unrecognized.
+13:42:14: ParticleUniverse: Particle System Template 'mp_torch' registered
+13:42:15: D3D9 : Loading 2D Texture, image name : 'mp_fire_02_2x2.dds' with 5 mip map levels
+13:42:15: Parsing script physXFluid.pu
+13:42:15: Compiler error: unknown error in physXFluid.pu(1): token class, system, unrecognized.
+13:42:15: Compiler error: unknown error in physXFluid.pu(12): token class, renderer, unrecognized.
+13:42:15: Compiler error: unknown error in physXFluid.pu(25): token class, extern, unrecognized.
+13:42:15: Compiler error: unknown error in physXFluid.pu(42): token class, renderer, unrecognized.
+13:42:15: Compiler error: unknown error in physXFluid.pu(53): token class, extern, unrecognized.
+13:42:15: Compiler error: unknown error in physXFluid.pu(55): token class, physx_shape, unrecognized.
+13:42:15: ParticleUniverse: Particle System Template 'physXFluid' registered
+13:42:15: Compiler error: invalid parameters in physXFluid.pu(25)
+13:42:15: Compiler error: invalid parameters in physXFluid.pu(53)
+13:42:15: Parsing script physXParticles.pu
+13:42:15: Compiler error: unknown error in physXParticles.pu(1): token class, system, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(9): token class, renderer, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(17): token class, all_particle_dimensions, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(29): token class, observer, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(31): token class, handler, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(37): token class, extern, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(40): token class, physx_shape, unrecognized.
+13:42:15: Compiler error: unknown error in physXParticles.pu(54): token class, renderer, unrecognized.
+13:42:15: ParticleUniverse: Particle System Template 'physXParticles' registered
+13:42:15: Compiler error: invalid parameters in physXParticles.pu(37)
+13:42:15: Parsing script rainSystem_1.pu
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(1): token class, system, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(11): token class, renderer, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(28): token class, observer, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(30): token class, handler, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(34): token class, handler, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(38): token class, handler, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(49): token class, renderer, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(59): token class, time_to_live, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(77): token class, renderer, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(83): token class, time_to_live, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(95): token class, velocity, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(105): token class, observer, unrecognized.
+13:42:15: Compiler error: unknown error in rainSystem_1.pu(107): token class, handler, unrecognized.
+13:42:15: ParticleUniverse: Particle System Template 'rainSystem_1' registered
+13:42:15: Texture: pu_rain_01.png: Loading 1 faces(PF_L16,32x1050x1) with 5 generated mipmaps from Image. Internal format is PF_L16,32x1050x1.
+13:42:15: Texture: pu_circle.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) Internal format is PF_A8R8G8B8,64x64x1.
+13:42:15: Parsing script rainSystem_2.pu
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(1): token class, system, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(11): token class, renderer, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(28): token class, observer, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(30): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(41): token class, renderer, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(51): token class, time_to_live, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(74): token class, renderer, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(80): token class, time_to_live, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(95): token class, velocity, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(105): token class, observer, unrecognized.
+13:42:16: Compiler error: unknown error in rainSystem_2.pu(107): token class, handler, unrecognized.
+13:42:16: ParticleUniverse: Particle System Template 'rainSystem_2' registered
+13:42:16: Parsing script snow.pu
+13:42:16: Compiler error: unknown error in snow.pu(1): token class, system, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(9): token class, renderer, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(16): token class, angle, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(22): token class, velocity, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(27): token class, all_particle_dimensions, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(48): token class, observer, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(51): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(55): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(60): token class, observer, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(63): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(67): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(73): token class, observer, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(75): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(79): token class, handler, unrecognized.
+13:42:16: Compiler error: unknown error in snow.pu(91): token class, renderer, unrecognized.
+13:42:16: ParticleUniverse: Particle System Template 'snow' registered
+13:42:16: Parsing script tornadoSystem.pu
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(1): token class, system, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(10): token class, renderer, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(34): token class, xyz_scale, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(45): token class, renderer, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(53): token class, velocity, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(58): token class, duration, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(63): token class, repeat_delay, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(68): token class, all_particle_dimensions, unrecognized.
+13:42:16: Compiler error: unknown error in tornadoSystem.pu(88): token class, rotation_speed, unrecognized.
+13:42:16: ParticleUniverse: Particle System Template 'tornadoSystem' registered
+13:42:16: Texture: pu_stone.jpeg: Loading 1 faces(PF_R8G8B8,480x360x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,480x360x1.
+13:42:17: Parsing script windyFireSystem.pu
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(1): token class, system, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(9): token class, renderer, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(17): token class, time_to_live, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(22): token class, velocity, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(47): token class, observer, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(50): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(54): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(58): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(62): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(68): token class, observer, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(71): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(75): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(79): token class, handler, unrecognized.
+13:42:17: Compiler error: unknown error in windyFireSystem.pu(83): token class, handler, unrecognized.
+13:42:17: ParticleUniverse: Particle System Template 'windyFire' registered
+13:42:17: Finished parsing scripts for resource group General
+13:42:17: Creating resources for group General
+13:42:17: All done
+13:42:17: Parsing scripts for resource group Internal
+13:42:17: Finished parsing scripts for resource group Internal
+13:42:17: Creating resources for group Internal
+13:42:17: All done
+13:42:17: Mesh: Loading Sinbad.mesh.
+13:42:17: Skeleton: Loading Sinbad.skeleton
+13:42:17: WARNING: Sinbad.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:17: Texture: sinbad_body.tga: Loading 1 faces(PF_R8G8B8,512x512x1) Internal format is PF_X8R8G8B8,512x512x1.
+13:42:17: Texture: sinbad_clothes.tga: Loading 1 faces(PF_R8G8B8,512x512x1) Internal format is PF_X8R8G8B8,512x512x1.
+13:42:17: Texture: sinbad_sword.tga: Loading 1 faces(PF_R8G8B8,256x256x1) Internal format is PF_X8R8G8B8,256x256x1.
+13:42:17: WARNING: the mesh 'Sinbad.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+13:42:17: Creating swords
+13:42:18: Mesh: Loading Sword.mesh.
+13:42:18: WARNING: Sword.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:18: Can't assign material Sinbad/Hilt to SubEntity of SinbadSword1 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Handle to SubEntity of SinbadSword1 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Blade to SubEntity of SinbadSword1 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Ruby to SubEntity of SinbadSword1 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Hilt to SubEntity of SinbadSword2 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Handle to SubEntity of SinbadSword2 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Blade to SubEntity of SinbadSword2 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Can't assign material Sinbad/Ruby to SubEntity of SinbadSword2 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Creating the chains
+13:42:18: Can't assign material Examples/LightRibbonTrail to BillboardChain Ogre/MO1 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:18: Mesh: Loading grid.mesh.
+13:42:18: Creating resource group Terrain
+13:42:18: Added resource location '' of type 'FileSystem' to resource group 'Terrain'
+13:42:18: Mesh: Loading ×ãÇò.mesh.
+13:42:18: WARNING: ×ãÇò.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:19: Mesh: Loading pointor.mesh.
+13:42:19: Can't assign material NoMaterial to SubEntity of Ogre/MO4 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material NoMaterial to SubEntity of Ogre/MO5 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material NoMaterial to SubEntity of Ogre/MO6 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Mesh: Loading cube.mesh.
+13:42:19: Mesh: Loading sphere.mesh.
+13:42:19: WARNING: sphere.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:19: Mesh: Loading RotationRingVisible.mesh.
+13:42:19: WARNING: RotationRingVisible.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:19: Can't assign material OgreSE/TransparentWhiteMat to SubEntity of RotionPointorX because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material OgreSE/TransparentWhiteMat to SubEntity of RotionPointorY because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material OgreSE/TransparentWhiteMat to SubEntity of RotionPointorZ because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Mesh: Loading RotationRingCollision.mesh.
+13:42:19: WARNING: RotationRingCollision.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:19: Can't assign material ManipulatorHandlesRedMat to SubEntity of RotionCollisionX because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material ManipulatorHandlesRedMat to SubEntity of RotionCollisionY because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material ManipulatorHandlesRedMat to SubEntity of RotionCollisionZ because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material NoMaterial to SubEntity of Ogre/MO8 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material NoMaterial to SubEntity of Ogre/MO9 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Can't assign material NoMaterial to SubEntity of Ogre/MO10 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: Mesh: Loading pointLight.mesh.
+13:42:19: WARNING: pointLight.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:42:19: Can't assign material lambert1 to SubEntity of Ogre/MO11 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:42:19: D3D9RenderSystem::_createRenderWindow "mini Window", 270x110 windowed  miscParams: externalWindowHandle=264068 
+13:42:19: D3D9 : Created D3D9 Rendering Window 'mini Window' : 270x110, 32bpp
+13:42:19: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:42:19: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:42:19: D3D9: Vertex texture format supported - PF_L8
+13:42:19: D3D9: Vertex texture format supported - PF_L16
+13:42:19: D3D9: Vertex texture format supported - PF_A8
+13:42:19: D3D9: Vertex texture format supported - PF_A4L4
+13:42:19: D3D9: Vertex texture format supported - PF_BYTE_LA
+13:42:19: D3D9: Vertex texture format supported - PF_R5G6B5
+13:42:19: D3D9: Vertex texture format supported - PF_B5G6R5
+13:42:19: D3D9: Vertex texture format supported - PF_A4R4G4B4
+13:42:19: D3D9: Vertex texture format supported - PF_A1R5G5B5
+13:42:19: D3D9: Vertex texture format supported - PF_A8R8G8B8
+13:42:19: D3D9: Vertex texture format supported - PF_B8G8R8A8
+13:42:19: D3D9: Vertex texture format supported - PF_A2R10G10B10
+13:42:19: D3D9: Vertex texture format supported - PF_A2B10G10R10
+13:42:19: D3D9: Vertex texture format supported - PF_DXT1
+13:42:19: D3D9: Vertex texture format supported - PF_DXT2
+13:42:19: D3D9: Vertex texture format supported - PF_DXT3
+13:42:19: D3D9: Vertex texture format supported - PF_DXT4
+13:42:19: D3D9: Vertex texture format supported - PF_DXT5
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+13:42:19: D3D9: Vertex texture format supported - PF_X8R8G8B8
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8A8
+13:42:19: D3D9: Vertex texture format supported - PF_DEPTH
+13:42:19: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT16_R
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT32_R
+13:42:19: D3D9: Vertex texture format supported - PF_SHORT_GR
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+13:42:19: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+13:42:19: D3D9: Vertex texture format supported - PF_SHORT_RGB
+13:42:19: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+13:42:19: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+13:42:19: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+13:42:19: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+13:42:19: D3D9: Vertex texture format supported - PF_PVRTC2_2BPP
+13:42:19: D3D9: Vertex texture format supported - PF_PVRTC2_4BPP
+13:42:19: D3D9: Vertex texture format supported - PF_R11G11B10_FLOAT
+13:42:19: D3D9: Vertex texture format supported - PF_R8_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8A8_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16B16_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16B16A16_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32G32_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32G32B32_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32G32B32A32_UINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8A8_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16B16_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16B16A16_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32G32_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32G32B32_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R32G32B32A32_SINT
+13:42:19: D3D9: Vertex texture format supported - PF_R9G9B9E5_SHAREDEXP
+13:42:19: D3D9: Vertex texture format supported - PF_BC4_UNORM
+13:42:19: D3D9: Vertex texture format supported - PF_BC4_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_BC5_UNORM
+13:42:19: D3D9: Vertex texture format supported - PF_BC5_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_BC6H_UF16
+13:42:19: D3D9: Vertex texture format supported - PF_BC6H_SF16
+13:42:19: D3D9: Vertex texture format supported - PF_BC7_UNORM
+13:42:19: D3D9: Vertex texture format supported - PF_BC7_UNORM_SRGB
+13:42:19: D3D9: Vertex texture format supported - PF_R8
+13:42:19: D3D9: Vertex texture format supported - PF_RG8
+13:42:19: D3D9: Vertex texture format supported - PF_R8_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R8G8B8A8_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R16_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16B16_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_R16G16B16A16_SNORM
+13:42:19: D3D9: Vertex texture format supported - PF_ETC1_RGB8
+13:42:19: D3D9: Vertex texture format supported - PF_ETC2_RGB8
+13:42:19: D3D9: Vertex texture format supported - PF_ETC2_RGBA8
+13:42:19: D3D9: Vertex texture format supported - PF_ETC2_RGB8A1
+13:42:19: D3D9: Vertex texture format supported - PF_ATC_RGB
+13:42:19: D3D9: Vertex texture format supported - PF_ATC_RGBA_EXPLICIT_ALPHA
+13:42:19: D3D9: Vertex texture format supported - PF_ATC_RGBA_INTERPOLATED_ALPHA
+13:42:20: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) Internal format is PF_X8R8G8B8,128x128x1.
+13:42:23: D3D9 device: 0x[00FC9800] lost. Releasing D3D9 texture: Ogre/ShadowTexture0
+13:42:23: Released D3D9 texture: Ogre/ShadowTexture0
+13:42:23: D3D9 Device 0x[00FC9800] entered lost state
+13:42:23: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:42:23: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:42:23: !!! Direct3D Device successfully restored.
+13:42:23: D3D9 device: 0x[00FC9800] was reset
+13:42:54: Added resource location '../media/materials/textures/Terrain/' of type 'FileSystem' to resource group 'Terrain'
+13:42:54: Initialising resource group Terrain
+13:42:54: Parsing scripts for resource group Terrain
+13:42:54: Finished parsing scripts for resource group Terrain
+13:42:54: Creating resources for group Terrain
+13:42:54: All done
+13:42:54: Terrain created; size=129 minBatch=65 maxBatch=65 treeDepth=2 lodLevels=2 leafLods=1
+13:42:56: D3D9 : Loading 2D Texture, image name : 'grass_green-01_diffusespecular.dds' with 5 mip map levels
+13:43:38: Mesh: Loading °Å½¶2.mesh.
+13:43:39: WARNING: °Å½¶2.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:43:39: D3D9 : Loading 2D Texture, image name : '0¹àÄ¾/tga_°Å½¶.dds' with 5 mip map levels
+13:43:39: Mesh: Loading box.mesh.
+13:43:44: mesh destoryed
+13:43:45: Mesh: Loading ´ó¹à2.mesh.
+13:43:45: Skeleton: Loading ´ó¹à2.skeleton
+13:43:45: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ´ó¹à2.skeleton in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 756)
+13:43:45: Unable to load skeleton ´ó¹à2.skeleton for Mesh ´ó¹à2.mesh. This Mesh will not be animated. You can ignore this message if you are using an offline tool.
+13:43:45: WARNING: ´ó¹à2.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:43:45: D3D9 : Loading 2D Texture, image name : '0¹àÄ¾/tga_´ó¹à2.dds' with 5 mip map levels
+13:43:51: mesh destoryed
+13:43:57: Mesh: Loading directionLight.mesh.
+13:43:57: WARNING: directionLight.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:43:57: Can't assign material lambert1 to SubEntity of Ogre/MO110 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:43:57: Can't assign material lambert1 to SubEntity of Ogre/MO110 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:43:58: Can't assign material lambert1 to SubEntity of Ogre/MO112 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:43:58: Can't assign material lambert1 to SubEntity of Ogre/MO112 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:45:24: Added resource location '../media/materials/textures/Terrain/' of type 'FileSystem' to resource group 'Terrain'
+13:45:24: Added resource location 'D:/ogre/OgreSDK_vc10_v1-9-0/work/Thebeging/SceneEditor/bin/media/materials/textures/Terrain/' of type 'FileSystem' to resource group 'Terrain'
+13:45:25: D3D9 : Loading 2D Texture, image name : 'grass_green-01_normalheight.dds' with 5 mip map levels
+13:48:12: Mesh: Loading Áø1.mesh.
+13:48:12: Skeleton: Loading Áø1.skeleton
+13:48:13: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Áø1.skeleton in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 756)
+13:48:13: Unable to load skeleton Áø1.skeleton for Mesh Áø1.mesh. This Mesh will not be animated. You can ignore this message if you are using an offline tool.
+13:48:13: WARNING: Áø1.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:48:13: D3D9 : Loading 2D Texture, image name : '0Ê÷Ä¾/jpg_À«Ò¶Æ¤.dds' with 5 mip map levels
+13:48:13: D3D9 : Loading 2D Texture, image name : '0Ê÷Ä¾/tga_ÁøÊ÷.dds' with 5 mip map levels
+13:48:26: mesh destoryed
+13:48:34: Mesh: Loading Ñ©ËÉÊ÷¸Ë.mesh.
+13:48:34: WARNING: Ñ©ËÉÊ÷¸Ë.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:48:34: D3D9 : Loading 2D Texture, image name : '0¹àÄ¾/jpg_³¤°×É½Ñ©ËÉ.dds' with 5 mip map levels
+13:48:37: mesh destoryed
+13:48:40: Mesh: Loading ÌÒ»¨4.mesh.
+13:48:40: WARNING: ÌÒ»¨4.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+13:48:40: D3D9 : Loading 2D Texture, image name : '0Ê÷Ä¾/tga_ÌÒ»¨.dds' with 5 mip map levels
+13:48:58: mesh destoryed

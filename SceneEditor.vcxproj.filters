@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\view">
+      <UniqueIdentifier>{c4a5f22c-cfb0-4ae8-bae4-52e04bf01faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\view">
+      <UniqueIdentifier>{22a88f7d-ead0-40b0-9d85-0e53040f5d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Scene">
+      <UniqueIdentifier>{9723f741-f30f-430a-9727-3e28087f8701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Scene">
+      <UniqueIdentifier>{8199241e-5b0b-4147-b6f1-41fe5eef8917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sqlite">
+      <UniqueIdentifier>{3c7d54ad-4cc1-4279-8214-6a26f4e4db55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Terrain">
+      <UniqueIdentifier>{3ab874c0-efe0-4507-8346-774eb3124db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Terrain\include">
+      <UniqueIdentifier>{85d2cec1-4209-4a09-a61e-3f5f8df1b122}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SceneEditor.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SceneEditorDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SceneEditor.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorView.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScene.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObj.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTerrainWnd.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObj.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundObj.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjPropertiesWnd.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="Editpointor.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjView.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSetPropertiesWnd.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBox.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LightObj.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObj.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqlite\sqlite3.h">
+      <Filter>源文件\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoader.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrain.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainAutoUpdateLod.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainGroup.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainLayerBlendMap.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainLodManager.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainMaterialGenerator.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainMaterialGeneratorA.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainPagedWorldSection.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainPaging.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainPrerequisites.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain\include\OgreTerrainQuadTreeNode.h">
+      <Filter>源文件\Terrain\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectTextureDlg.h">
+      <Filter>头文件\view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorView.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScene.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTerrainWnd.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObj.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundObj.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjPropertiesWnd.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="Editpointor.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjView.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSetPropertiesWnd.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBox.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LightObj.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObj.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqlite\sqlite3.c">
+      <Filter>源文件\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoader.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrain.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainAutoUpdateLod.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainGroup.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainLayerBlendMap.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainLodManager.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialGenerator.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialGeneratorA.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperCg.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperGLSL.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperGLSLES.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainMaterialShaderHelperHLSL.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainPagedWorldSection.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainPaging.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrain\src\OgreTerrainQuadTreeNode.cpp">
+      <Filter>源文件\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectTextureDlg.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SceneEditor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

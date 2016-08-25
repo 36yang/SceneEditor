@@ -1,0 +1,50 @@
+
+
+
+material Girl
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 0
+			diffuse 0 0 0 0
+			specular 0 0 0 0 1
+			emissive 0.6 0.6 0 0.15
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture Girl_Diffuse.png
+			}
+
+		}
+	
+	}
+
+}
+
+
+material SCAR_B_MT
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0.5 0.5 0.5 1 33.2193
+
+			texture_unit
+			{
+				texture SCAR_B.tga
+			}
+
+			texture_unit
+			{
+			}
+		}
+
+	}
+
+}

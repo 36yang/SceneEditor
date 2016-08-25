@@ -1,0 +1,51 @@
+//Ìì¿Õñ·¶¥
+material DomeSky/CloudySky
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture clouds1.jpg
+				scroll_anim 0.15 0
+			}
+		}
+	}
+}
+
+material DomeSky/BlueSky
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture clouds.jpg
+				scroll_anim 0.05 0
+			}
+		}
+	}
+}
+
+
+material DomeSky/BlueSkyStatic
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture clouds.jpg
+			}
+		}
+	}
+}

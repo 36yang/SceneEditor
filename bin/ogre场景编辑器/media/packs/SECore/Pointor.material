@@ -1,0 +1,87 @@
+material OgreSE/RedMat
+{
+    technique
+    {
+        pass
+        {
+		depth_check off
+		depth_write off
+		scene_blend  alpha_blend
+		ambient 0.0 0.0 0.0 
+		diffuse 0.0 0.0 0.0 
+		specular 1.0 0.0 0.0 1.0
+		emissive 1.0 0.0 0.0
+        }
+    }
+}
+
+material OgreSE/BlueMat
+{
+    technique
+    {
+        pass
+        {
+		depth_check off
+		depth_write off
+		scene_blend  alpha_blend
+		ambient 0.0 0.0 0.0 
+		diffuse 0.0 0.0 0.0 
+		specular 0.0 0.0 0.0 0.0
+		emissive 0.0 0.0 1.0
+        }
+    }
+}
+
+material OgreSE/GreenMat
+{
+    technique
+    {
+        pass
+        {
+		depth_check off
+		depth_write off
+		scene_blend  alpha_blend
+		ambient 0.0 0.0 0.0 
+		diffuse 0.0 0.0 0.0 
+		specular 0.0 1.0 0.0 1.0
+		emissive 0.0 1.0 0.0
+        }
+    }
+}
+
+
+material OgreSE/Yellow
+{
+    technique
+    {
+        pass
+        {
+		depth_check off
+		depth_write off
+		scene_blend add
+		ambient 0.5 0.5 0.0
+		diffuse 0.5 0.5 0.0
+		specular 0.0 0.0 0.0 1.0
+		emissive 0.5 0.5 0.0
+        }
+    }
+}
+
+material OgreSE/ObjectIndicatorWhiteMat
+{
+    technique
+    {
+        pass
+        {
+		depth_check off
+		depth_write off
+		scene_blend add
+		ambient 0.1 0.1 0.1
+		diffuse 0.3 0.3 0.3
+		specular 0.0 0.0 0.0 0.0
+		emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+

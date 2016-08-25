@@ -1,0 +1,195 @@
+﻿生成启动时间为 2016/8/17 13:11:58。
+     1>项目“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\SceneEditor.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“obj\Debug\SceneEditor.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\sdcard\Program Files\vs2010\VC\bin\CL.exe /c /Iinclude /I"D:\ogre\OgreSDK_vc10_v1-9-0\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OIS" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE\Overlay" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE" /I"D:\ogre\OgreSDK_vc10_v1-9-0\Samples\Common\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\boost" /I"D:\ogre\OgreSDK_vc10_v1-9-0\ogreopcode\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE\Paging" /I.\src\Terrain\include /I".\src\jsoncpp-src-0.5.0\json" /I.\src\FreeImage\Source /I".\src\ode-0.13\include" /I.\src\FMOD\inc /I.\src\ParticleUniverse\include /I.\src\sqlite /I.\ /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"obj\Debug\SceneEditor.pch" /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\sdcard\Program Files\vs2010\VC\bin\CL.exe /c /Iinclude /I"D:\ogre\OgreSDK_vc10_v1-9-0\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OIS" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE\Overlay" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE" /I"D:\ogre\OgreSDK_vc10_v1-9-0\Samples\Common\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\boost" /I"D:\ogre\OgreSDK_vc10_v1-9-0\ogreopcode\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE\Paging" /I.\src\Terrain\include /I".\src\jsoncpp-src-0.5.0\json" /I.\src\FreeImage\Source /I".\src\ode-0.13\include" /I.\src\FMOD\inc /I.\src\ParticleUniverse\include /I.\src\sqlite /I.\ /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"obj\Debug\SceneEditor.pch" /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApplication.cpp EditScene.cpp EditTerrainWnd.cpp Editpointor.cpp FileView.cpp Hero.cpp InputManager.cpp LightObj.cpp MainFrm.cpp MeshObj.cpp ObjPropertiesWnd.cpp OutputWnd.cpp ParticleObj.cpp PhysicsBox.cpp PropertiesWnd.cpp SceneEditor.cpp SceneEditorDoc.cpp SceneEditorView.cpp SceneLoader.cpp SceneObjView.cpp SceneSetPropertiesWnd.cpp SelectTextureDlg.cpp SoundObj.cpp ViewTree.cpp src\Terrain\src\OgreTerrain.cpp src\Terrain\src\OgreTerrainAutoUpdateLod.cpp src\Terrain\src\OgreTerrainGroup.cpp src\Terrain\src\OgreTerrainLayerBlendMap.cpp src\Terrain\src\OgreTerrainLodManager.cpp src\Terrain\src\OgreTerrainMaterialGenerator.cpp src\Terrain\src\OgreTerrainMaterialGeneratorA.cpp src\Terrain\src\OgreTerrainMaterialShaderHelperCg.cpp src\Terrain\src\OgreTerrainMaterialShaderHelperGLSL.cpp src\Terrain\src\OgreTerrainMaterialShaderHelperGLSLES.cpp src\Terrain\src\OgreTerrainMaterialShaderHelperHLSL.cpp src\Terrain\src\OgreTerrainPagedWorldSection.cpp src\Terrain\src\OgreTerrainPaging.cpp src\Terrain\src\OgreTerrainQuadTreeNode.cpp
+         OgreTerrainQuadTreeNode.cpp
+         OgreTerrainPaging.cpp
+         OgreTerrainPagedWorldSection.cpp
+         OgreTerrainMaterialShaderHelperHLSL.cpp
+         OgreTerrainMaterialShaderHelperGLSLES.cpp
+         OgreTerrainMaterialShaderHelperGLSL.cpp
+         OgreTerrainMaterialShaderHelperCg.cpp
+         OgreTerrainMaterialGeneratorA.cpp
+         OgreTerrainMaterialGenerator.cpp
+         OgreTerrainLodManager.cpp
+         OgreTerrainLayerBlendMap.cpp
+         OgreTerrainGroup.cpp
+         OgreTerrainAutoUpdateLod.cpp
+         OgreTerrain.cpp
+         ViewTree.cpp
+         SoundObj.cpp
+         SelectTextureDlg.cpp
+         SceneSetPropertiesWnd.cpp
+         SceneObjView.cpp
+         SceneLoader.cpp
+         正在生成代码...
+         正在编译...
+         SceneEditorView.cpp
+         SceneEditorDoc.cpp
+         SceneEditor.cpp
+         PropertiesWnd.cpp
+         PhysicsBox.cpp
+         ParticleObj.cpp
+         OutputWnd.cpp
+         ObjPropertiesWnd.cpp
+         MeshObj.cpp
+         MainFrm.cpp
+         LightObj.cpp
+         InputManager.cpp
+         Hero.cpp
+         FileView.cpp
+         Editpointor.cpp
+         EditTerrainWnd.cpp
+         EditScene.cpp
+         BaseApplication.cpp
+         正在生成代码...
+         C:\sdcard\Program Files\vs2010\VC\bin\CL.exe /c /Iinclude /I"D:\ogre\OgreSDK_vc10_v1-9-0\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OIS" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE\Overlay" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE" /I"D:\ogre\OgreSDK_vc10_v1-9-0\Samples\Common\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\boost" /I"D:\ogre\OgreSDK_vc10_v1-9-0\ogreopcode\include" /I"D:\ogre\OgreSDK_vc10_v1-9-0\include\OGRE\Paging" /I.\src\Terrain\include /I".\src\jsoncpp-src-0.5.0\json" /I.\src\FreeImage\Source /I".\src\ode-0.13\include" /I.\src\FMOD\inc /I.\src\ParticleUniverse\include /I.\src\sqlite /I.\ /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\sqlite\sqlite3.c
+         sqlite3.c
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Iobj\Debug\ /nologo /fo"obj\Debug\SceneEditor.res" SceneEditor.rc 
+       Link:
+         C:\sdcard\Program Files\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\SceneEditor.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ogre\OgreSDK_vc10_v1-9-0\lib\debug" /LIBPATH:"D:\ogre\OgreSDK_vc10_v1-9-0\boost\lib" /LIBPATH:.\src\FreeImage\Release /LIBPATH:".\src\ode-0.13\lib\DebugSingleLib" /LIBPATH:.\src\FMOD\lib /LIBPATH:.\src\ParticleUniverse\lib\Debug OgreMain_d.lib FreeImage.lib ode_singled.lib fmod_vc.lib ParticleUniverse_d.lib OgrePaging_d.lib /MANIFEST /ManifestFile:"obj\Debug\SceneEditor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\SceneEditor.pdb" /SUBSYSTEM:WINDOWS /STACK:"32768" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\SceneEditor.lib" /MACHINE:X86 obj\Debug\SceneEditor.res
+         obj\Debug\BaseApplication.obj
+         obj\Debug\LightObj.obj
+         obj\Debug\ParticleObj.obj
+         obj\Debug\SceneLoader.obj
+         obj\Debug\SceneObjView.obj
+         obj\Debug\Editpointor.obj
+         obj\Debug\EditScene.obj
+         obj\Debug\EditTerrainWnd.obj
+         obj\Debug\FileView.obj
+         obj\Debug\Hero.obj
+         obj\Debug\InputManager.obj
+         obj\Debug\MainFrm.obj
+         obj\Debug\MeshObj.obj
+         obj\Debug\ObjPropertiesWnd.obj
+         obj\Debug\OutputWnd.obj
+         obj\Debug\PhysicsBox.obj
+         obj\Debug\PropertiesWnd.obj
+         obj\Debug\SceneEditor.obj
+         obj\Debug\SceneEditorDoc.obj
+         obj\Debug\SceneEditorView.obj
+         obj\Debug\SceneSetPropertiesWnd.obj
+         obj\Debug\SelectTextureDlg.obj
+         obj\Debug\SoundObj.obj
+         obj\Debug\sqlite3.obj
+         obj\Debug\OgreTerrain.obj
+         obj\Debug\OgreTerrainAutoUpdateLod.obj
+         obj\Debug\OgreTerrainGroup.obj
+         obj\Debug\OgreTerrainLayerBlendMap.obj
+         obj\Debug\OgreTerrainLodManager.obj
+         obj\Debug\OgreTerrainMaterialGenerator.obj
+         obj\Debug\OgreTerrainMaterialGeneratorA.obj
+         obj\Debug\OgreTerrainMaterialShaderHelperCg.obj
+         obj\Debug\OgreTerrainMaterialShaderHelperGLSL.obj
+         obj\Debug\OgreTerrainMaterialShaderHelperGLSLES.obj
+         obj\Debug\OgreTerrainMaterialShaderHelperHLSL.obj
+         obj\Debug\OgreTerrainPagedWorldSection.obj
+         obj\Debug\OgreTerrainPaging.obj
+         obj\Debug\OgreTerrainQuadTreeNode.obj
+         obj\Debug\stdafx.obj
+         obj\Debug\ViewTree.obj
+         LINK : 没有找到 bin\Debug\SceneEditor.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>ode_singled.lib(amotor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(amotor.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(ball.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(ball.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(contact.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(contact.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(dball.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(dball.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(dhinge.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(dhinge.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(fixed.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(fixed.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(hinge.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(hinge.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(hinge2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(hinge2.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(joint.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(joint.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(lmotor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(lmotor.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(null.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(null.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(piston.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(piston.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(plane2d.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(plane2d.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(pr.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(pr.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(pu.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(pu.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(slider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(slider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(transmission.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(transmission.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(universal.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(universal.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(fastdot.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(fastdot.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(fastldlt.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(fastldlt.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(fastlsolve.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(fastlsolve.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(fastltsolve.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(fastltsolve.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(nextafterf.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(nextafterf.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(array.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(array.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(box.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(box.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(capsule.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(capsule.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_cylinder_box.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_cylinder_box.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_cylinder_plane.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_cylinder_plane.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_cylinder_sphere.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_cylinder_sphere.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_cylinder_trimesh.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_cylinder_trimesh.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_kernel.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_kernel.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_space.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_space.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_transform.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_transform.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_box.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_box.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_ccylinder.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_ccylinder.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_opcode.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_opcode.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_plane.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_plane.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_ray.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_ray.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_sphere.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_sphere.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_trimesh_trimesh_new.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_trimesh_trimesh_new.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(collision_util.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(collision_util.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(convex.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(convex.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(cylinder.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(cylinder.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(error.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(error.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(heightfield.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(heightfield.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(lcp.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(lcp.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(mass.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(mass.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(matrix.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(matrix.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(memory.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(memory.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(misc.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(misc.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(objects.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(objects.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(obstack.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(obstack.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(ode.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(ode.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(odeinit.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(odeinit.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(odemath.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(odemath.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(odeou.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(odeou.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(plane.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(plane.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(quickstep.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(quickstep.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(ray.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(ray.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(rotation.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(rotation.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(sphere.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(sphere.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(step.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(step.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(threading_base.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(threading_base.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(threading_impl.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(threading_impl.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(timer.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(timer.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(util.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(util.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(customization.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(customization.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(Opcode.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(Opcode.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_AABBTree.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_AABBTree.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_BaseModel.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_BaseModel.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_Collider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_Collider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_MeshInterface.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_MeshInterface.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_Model.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_Model.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_OBBCollider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_OBBCollider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_OptimizedTree.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_OptimizedTree.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_RayCollider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_RayCollider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_SphereCollider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_SphereCollider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_TreeBuilders.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_TreeBuilders.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_TreeCollider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_TreeCollider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(OPC_VolumeCollider.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(OPC_VolumeCollider.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceAABB.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceAABB.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceContainer.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceContainer.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceHPoint.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceHPoint.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceMatrix3x3.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceMatrix3x3.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceMatrix4x4.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceMatrix4x4.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceOBB.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceOBB.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IcePoint.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IcePoint.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ode_singled.lib(IceRandom.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ode_singled.lib(IceRandom.obj)”或在“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         SceneEditor.vcxproj -> D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\SceneEditor.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\bin\Debug\SceneEditor.exe.manifest" /manifest obj\Debug\SceneEditor.exe.intermediate.manifest "C:\sdcard\Program Files\vs2010\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“obj\Debug\SceneEditor.unsuccessfulbuild”。
+         正在对“obj\Debug\SceneEditor.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\ogre\OgreSDK_vc10_v1-9-0\work\Thebeging\SceneEditor\SceneEditor.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:28:33.70
